@@ -1,0 +1,31 @@
+ConfigVersion=1
+# Message on first join
+firstjoin {
+    # Broadcast the message to all players
+    broadcast=false
+    # Fade in time in TICKS (20 ticks = 1 sec)
+    fadein=15
+    # Fade out time in TICKS
+    fadeout=15
+    # Stay on screen time in TICKS
+    staytime=50
+    # Subtitle message
+    subtitle="&b欢迎来到Minecraft服务器"
+    # Title message
+    title="&e ttt"
+}
+# Message on rejoin
+rejoin {
+    # Broadcast the message to all players
+    broadcast=false
+    # Fade in time in TICKS (20 ticks = 1 sec)
+    fadein=15
+    # Fade out time in TICKS
+    fadeout=15
+    # Stay on screen time in TICKS
+    staytime=50
+    # Subtitle message
+    subtitle="&a欢迎回到服务器！"
+    # Title message
+    title="&e{player_name}"
+}
